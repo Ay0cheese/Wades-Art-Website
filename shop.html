@@ -3,11 +3,12 @@
         <Head>
             <title>Shop</title>
                 <meta charset="UTF-8">
-                <link rel="stylesheet" href="styles.css">
-        </Head>
+                <link rel="stylesheet" href="public/styles/styles.css">
+              
+            </Head>
             <div class="header">
                 <a href="homepage.html">
-                    <img src="photos/Exxtra_Ranch_Logo.png"
+                    <img src="public/images/Exxtra_Ranch_Logo.png"
                     width="250" height="98">
                 </a>
                 <div class="navbar">
@@ -20,8 +21,33 @@
                     </ul>
                 </div>
             </div> 
+         <div class="shop-topic"><h1>Shop</h1></div>
+
+        
         <body>
-            <div class="shop-topic"><h1>Shop</h1></div>
+            
+                <div class="priceform">
+                    <h1 class="formh1">New User Signup</h1>
+                        <form>
+                
+                            <input type="text" name="fName" placeholder="Name">
+                            <p>Username must be  and contain 5 - 12 characters</p>
+                
+                            <input type="text" name="email" placeholder="Email">
+                            <p>Email must be a valid address, e.g. me@mydomain.com</p>
+                
+                            <input type="text" name="phone" placeholder="phone">
+                            <p>Telephone must be a valid UK telephone number (10 digits)</p>
+
+                            <input type="text" name="product" placeholder="Product Type">
+                            <p>Slug must contain only lowercase letters, numbers and hyphens and be 8 - 20 characters</p>
+                
+                            <input type="text" name="description" placeholder="Description">
+                            <p>Slug must contain only lowercase letters, numbers and hyphens and be 8 - 20 characters</p>
+                
+                        </form>
+                    <script type="text/javascript" src="validation.js"></script>
+             </div>
 
         </body>
     </Html>
