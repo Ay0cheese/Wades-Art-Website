@@ -23,27 +23,33 @@
             </div> 
          <div class="shop-topic"><h1>Shop</h1></div>
 
-        
+          
         <body>
             
                 <div class="priceform">
-                    <h1 class="formh1">New User Signup</h1>
+                    <h1 class="formh1">Product Inquiry</h1>
                         <form>
                 
                             <input type="text" name="fName" placeholder="Name">
-                            <p>Username must be  and contain 5 - 12 characters</p>
+                            <p>E.g. John/Jane Doe</p>
                 
                             <input type="text" name="email" placeholder="Email">
                             <p>Email must be a valid address, e.g. me@mydomain.com</p>
                 
-                            <input type="text" name="phone" placeholder="phone">
-                            <p>Telephone must be a valid UK telephone number (10 digits)</p>
+                            <input type="text" name="phone" placeholder="Phone">
+                            <p>Telephone must be a valid US telephone number (10 digits)</p>
 
                             <input type="text" name="product" placeholder="Product Type">
-                            <p>Slug must contain only lowercase letters, numbers and hyphens and be 8 - 20 characters</p>
+                                <select name="product" id="product">
+                                    <option value="">Custom Paintings</option>
+                                    <option value="">Paintings for sale</option>
+                                    <option value="">murals</option>
+                                    <option value="">Custom Apparel for sale</option>
+                                    <option value="">Apparel for sale</option>
+                                </select>
+                            <p>Pick one or multiple products your interested in</p>
                 
-                            <input type="text" name="description" placeholder="Description">
-                            <p>Slug must contain only lowercase letters, numbers and hyphens and be 8 - 20 characters</p>
+                            <input type="text" name="description" placeholder="How we can help?">
                 
                         </form>
                     <script type="text/javascript" src="validation.js"></script>
